@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/menu/icons" >
+        <file>icons/add-key-48x48.png</file>
+        <file>icons/binary-48x48.png</file>
+        <file>icons/cancel-48x48.png</file>
+        <file>icons/encrypted-48x48.png</file>
+        <file>icons/exec-48x48.png</file>
+        <file>icons/key-48x48.png</file>
+        <file>icons/lock-48x48.png</file>
+        <file>icons/login-48x48.png</file>
+        <file>icons/man-48x48.png</file>
+        <file>icons/modify-key-48x48.png</file>
+        <file>icons/objects-48x48.png</file>
+        <file>icons/open-key-48x48.png</file>
+        <file>icons/readme-48x48.png</file>
+        <file>icons/remove-key-48x48.png</file>
+        <file>icons/reports-48x48.png</file>
+        <file>icons/safe-48x48.png</file>
+        <file>icons/save-key-48x48.png</file>
+        <file>icons/script-32x32.png</file>
+        <file>icons/secrecy-48x48.png</file>
+        <file>icons/signature-48x48.png</file>
+    </qresource>
+</RCC>

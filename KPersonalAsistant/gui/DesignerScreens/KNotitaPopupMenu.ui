@@ -1,0 +1,113 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>283</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <layout class="QGridLayout" name="gridLayout" />
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>283</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_New" >
+    <property name="contextMenuPolicy" >
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="title" >
+     <string>&amp;Menu</string>
+    </property>
+    <widget class="QMenu" name="menuSend" >
+     <property name="title" >
+      <string>&amp;Send To</string>
+     </property>
+     <addaction name="actionTo_text_file" />
+     <addaction name="actionTo_e_mail" />
+     <addaction name="action_KNotita_User" />
+    </widget>
+    <addaction name="actionNew" />
+    <addaction name="actionDelete" />
+    <addaction name="actionTrash_nota" />
+    <addaction name="separator" />
+    <addaction name="actionChange_font" />
+    <addaction name="separator" />
+    <addaction name="actionInsert_text" />
+    <addaction name="separator" />
+    <addaction name="menuSend" />
+    <addaction name="separator" />
+    <addaction name="action_Information" />
+   </widget>
+   <addaction name="menu_New" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="actionNew" >
+   <property name="text" >
+    <string>&amp;New note</string>
+   </property>
+  </action>
+  <action name="actionDelete" >
+   <property name="text" >
+    <string>&amp;Delete text</string>
+   </property>
+  </action>
+  <action name="actionTrash_nota" >
+   <property name="text" >
+    <string>&amp;Trash note</string>
+   </property>
+  </action>
+  <action name="actionChange_font" >
+   <property name="text" >
+    <string>&amp;Change font</string>
+   </property>
+  </action>
+  <action name="actionInsert_text" >
+   <property name="text" >
+    <string>&amp;Import...</string>
+   </property>
+  </action>
+  <action name="actionInsert_image" >
+   <property name="text" >
+    <string>Insert image...</string>
+   </property>
+  </action>
+  <action name="actionTo_text_file" >
+   <property name="text" >
+    <string>&amp;Text file</string>
+   </property>
+   <property name="menuRole" >
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
+  <action name="actionTo_e_mail" >
+   <property name="text" >
+    <string>&amp;Mail recipient</string>
+   </property>
+  </action>
+  <action name="action_Information" >
+   <property name="text" >
+    <string>Note &amp;Information</string>
+   </property>
+  </action>
+  <action name="action_KNotita_User" >
+   <property name="text" >
+    <string>&amp;KNotita User</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

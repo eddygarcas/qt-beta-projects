@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/tray/images" >
+        <file alias="trayIcon" >Poseidon for UML.ico</file>
+        <file alias="appico" >appIco.png</file>
+        <file alias="csico" >csIco.png</file>
+        <file alias="csconnected" >csIcoConn.PNG</file>
+        <file alias="csdisconnected" >csIcoDiss.PNG</file>
+    </qresource>
+</RCC>

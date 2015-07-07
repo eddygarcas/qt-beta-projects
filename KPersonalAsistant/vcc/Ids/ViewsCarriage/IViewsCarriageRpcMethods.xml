@@ -1,0 +1,52 @@
+<RpcInterfaces>
+
+  <interface class="ViewsCarriage">
+
+    <!--__________________________________
+
+              ViewsCarriage methods
+    ______________________________________-->
+
+    <method name="getViewsPensAndSlots"/>
+
+    <!--__________________________________
+
+              ViewsPen methods
+    ______________________________________-->
+
+    <method name="getFeedingCartridges"/>
+    <method name="getJams"/>
+    <method name="getTotalLifeConsumption"/>
+    <method name="getPercentFired"/>
+    <method name="getMaxRecoveryLevel"/>
+    <method name="getNonHPInkUsed"/>
+    <method name="getExpiredInkUsed"/>
+    <method name="getSlotPosition"/>
+    <method name="getStatusAsStringKey"/>
+    <method name="getWarrantyStatus"/>
+    <method name="getWarrantyStatusAsStringKey"/>
+    <method name="getManufacturerDate"/>
+    <method name="getInstallDate"/>
+    <method name="getWarrantyExpirationDate"/>
+    <method name="isMissing"/>
+    <method name="getColors"/>
+    <method name="getSerialNumber"/>
+    <method name="getManufacturer"/>
+    <method name="getOrderNumber"/>
+    <method name="getPartNumber"/>
+    <method name="getPrintableOrderNumber"/>
+
+    <!--__________________________________
+
+              ViewsPenSlot methods
+    ______________________________________-->
+
+    <method name="getTotalInsertionsCount"/>
+    <method name="getPensUsedCount"/>
+    <method name="getPenEvents"/>
+
+  </interface>
+
+</RpcInterfaces>
+
+

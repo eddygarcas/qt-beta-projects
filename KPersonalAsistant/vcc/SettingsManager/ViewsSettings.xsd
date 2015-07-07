@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="viewssettings">
+		<xs:annotation>
+			<xs:documentation>
+				Comment describing your root element
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="setting">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="objectname"
+								type="xs:string" />
+							<xs:element name="label" type="xs:integer" />
+							<xs:element name="title" type="xs:integer" />
+							<xs:element name="type" type="xs:string" />
+							<xs:element name="options">
+								<xs:complexType>
+									<xs:sequence
+										maxOccurs="unbounded">
+										<xs:element name="option">
+											<xs:complexType>
+												<xs:all>
+													<xs:element
+														name="label" type="xs:string" />
+													<xs:element
+														name="value" type="xs:string" />
+												</xs:all>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+						<xs:attribute name="id" type="xs:string"
+							use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
